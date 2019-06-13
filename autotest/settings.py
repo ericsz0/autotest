@@ -85,13 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'autotest',
-<<<<<<< HEAD
         'USER': 'testdb',
         'PASSWORD': 'test123456',
-=======
-        'USER': 'root',
-        'PASSWORD': 'test123456',
->>>>>>> parent of 285366f... master
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
