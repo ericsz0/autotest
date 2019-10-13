@@ -61,4 +61,4 @@ def test_report(request):
     username = request.session.get('user','')
     apis_list = Apis.objects.all()
     apis_count = Apis.objects.all().count()
-    db = pymysql.connect(user='root', db='autotest', passwd='19921022Lsw')
+    db = pymysql.connect(user='root', db='autotest', passwd='test123456')
