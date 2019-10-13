@@ -105,3 +105,4 @@ venv.bak/
 
 .idea/
 .gitignore
+db.sqlite3
