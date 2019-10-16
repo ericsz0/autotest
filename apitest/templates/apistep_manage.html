@@ -51,6 +51,11 @@
                 {% endif %}
                 </td>
                 <td>{{ apistep.create_time }}</td>
+                <td>{% if apitest.apitestresult == 1 %}
+                <a style="color:green">{{ apitest.apitestresult }}</a></td>
+                {% else %}
+                <a style="color:red">{{ apitest.apitestresult }}</a></td>
+                {% endif %}
             </tr>
             {% endfor %}
             </tbody>
